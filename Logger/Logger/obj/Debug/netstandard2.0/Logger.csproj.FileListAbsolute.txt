@@ -1,0 +1,9 @@
+C:\Programs\Final Project\Logger\Logger\Logger\bin\Debug\netstandard2.0\Logger.deps.json
+C:\Programs\Final Project\Logger\Logger\Logger\bin\Debug\netstandard2.0\Logger.dll
+C:\Programs\Final Project\Logger\Logger\Logger\bin\Debug\netstandard2.0\Logger.pdb
+C:\Programs\Final Project\Logger\Logger\Logger\obj\Debug\netstandard2.0\Logger.csprojAssemblyReference.cache
+C:\Programs\Final Project\Logger\Logger\Logger\obj\Debug\netstandard2.0\Logger.AssemblyInfoInputs.cache
+C:\Programs\Final Project\Logger\Logger\Logger\obj\Debug\netstandard2.0\Logger.AssemblyInfo.cs
+C:\Programs\Final Project\Logger\Logger\Logger\obj\Debug\netstandard2.0\Logger.csproj.CoreCompileInputs.cache
+C:\Programs\Final Project\Logger\Logger\Logger\obj\Debug\netstandard2.0\Logger.dll
+C:\Programs\Final Project\Logger\Logger\Logger\obj\Debug\netstandard2.0\Logger.pdb

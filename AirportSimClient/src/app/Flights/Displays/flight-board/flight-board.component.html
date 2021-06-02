@@ -1,0 +1,14 @@
+<div id="boardDisplay container">
+    <table >
+        <tr>
+            <th> Airplane </th>
+            <th> Process </th>
+            <th> Description </th>
+        </tr> 
+        <tr *ngFor="let flight of flights">
+            <td *ngIf="Validate(flight)"> {{ flight.name }} </td>
+            <td *ngIf="Validate(flight)"> {{ flight.process | ProcessPipe }} </td>
+            <td *ngIf="Validate(flight)"> {{ flight.process | DescriptionPipe: flight.legType }} </td>
+        </tr>
+    </table>
+</div>

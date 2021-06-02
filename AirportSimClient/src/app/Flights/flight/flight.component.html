@@ -1,0 +1,56 @@
+<div id="maincontainer">
+
+    <div id="actioncontiner">
+        <div routerLink="" > List </div>
+        <div routerLink="flightBoard" > Flight Board </div>
+    </div>
+
+    <div id="displaycontainer">
+        <div id="indicator"> 
+            <p> {{output}} </p>
+        </div>
+
+        <div id="router outlet">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+
+</div>
+<!--
+<div id="flightContainer">
+    <ul>
+        <li *ngFor="let flight of flights" >
+            <label> Name </label>
+            <span> {{ flight.name }} </span>
+            <label> Process </label>
+            <span> {{ flight.process | ProcessPipe }} </span>
+            <label> Leg Id </label>
+            <span> {{ flight.legId }} </span>
+            <label> Description </label>
+            <span> {{ flight.process | DescriptionPipe: flight.legType }} </span>
+        </li>
+    </ul>
+    
+    <table>
+        <tr>
+            <th> Name </th>
+            <th> Process </th>
+            <th> Leg Id </th>
+            <th> Description </th>
+        </tr>
+        <tr>
+            <td>
+                {{ flight.name }}
+            </td>
+            <td>
+                {{ flight.process | ProcessPipe }}
+            </td>
+            <td>
+                {{ flight.legId }}
+            </td>
+            <td>
+                {{ flight.process | DescriptionPipe: flight.legType }}
+            </td>
+        </tr>
+    </table> 
+</div>-->

@@ -1,0 +1,16 @@
+<div id="flightContainer">
+    <ul>
+        <li *ngFor="let flight of flights" >
+            <label> Name </label>
+            <span> {{ flight.name }} </span>
+            <label> Process </label>
+            <span> {{ flight.process | ProcessPipe }} </span>
+            <label> Leg Id </label>
+            <span> {{ flight.legId }} </span>
+            <label> Description </label>
+            <span> {{ flight.process | DescriptionPipe: flight.legType }} </span>
+        </li>
+    </ul>
+</div>
+
+
